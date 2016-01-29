@@ -1,6 +1,7 @@
 body{
     font-size: 16px;
     font-family: 'Roboto';
+    background-color: #eeeeee;
 }
 .head{
     background-color: #072a16;
@@ -12,9 +13,12 @@ body{
     width: 30px;
     margin: 0 auto;
 }
-.logo__h1
+.logo__div
 {
     margin: 0 auto;
+}
+.logo__title{
+    display: none;
 }
 .logo__figure
 {
@@ -62,6 +66,12 @@ body{
 .section--green{
     background-color: #2d6b22;
 }
+.section--middle--green{
+    background-color: #2d6b22;
+}
+.section--middle{
+    background-color: #eeeeee;
+}
 .center{
     display: block;
     width: 75%;
@@ -80,9 +90,15 @@ body{
 .section__title--darker{
     color: #072a16;
 }
+.section__title--color{
+    color: #eeeeee;
+}
 .section__paragraph{
     font-weight: lighter;
     text-align: justify;
+}
+.quien-soy__images{
+    display: none;
 }
 .images-list{
     text-decoration: none;
@@ -140,12 +156,13 @@ body{
 .skills{
     margin: 0;
     padding: 0;
+    padding-bottom: 50px;
 }
 .skill-list{
     text-decoration: none;
     list-style: none;
     font-size: 0;
-    max-width: 500px;
+    max-width: 400px;
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -265,11 +282,12 @@ body{
 }
 .form__input{
     display: block;
-    width: 100%;
+    width: 95%;
 }
 .form__input--inline{
     display: inline-block;
     width: 45%;
+    margin: 0 auto;
 }
 .form__button{
     display: block;
@@ -279,4 +297,155 @@ body{
     color: #eeeeee;
     border-radius: 10px;
     padding: 5px 15px;
+}
+/*contact*/
+.contact__images{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.contact__figure{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+}
+.contact__image{
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .logo
+    {
+        vertical-align: middle;
+        display: inline-block;
+        width: 50%;
+        margin: 0;
+        margin-left: 10px;
+    }
+    .logo__div
+    {
+        margin: 0;
+        display: inline-block;
+    }
+    .logo__figure
+    {
+        margin: 0;
+    }
+    .logo__image{
+        margin: 0;
+    }
+    .logo__title{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+        color: #eeeeee;
+        font-style: italic;
+        font-weight: lighter;
+    }
+    .menu
+    {
+        vertical-align: middle;
+        position: static;
+        display: inline-block;
+        width: 48%;
+    }
+    .section__text{
+        display: inline-block;
+        width: 70%;
+        font-size: 0;
+        color: #eeeeee;
+        padding: 30px 0;
+        vertical-align: middle;
+    }
+    .section__paragraph{
+        font-size: 16px;
+    }
+    .quien-soy__images{
+        display: inline-block;
+        width: 29%;
+        margin: 0 auto;
+        vertical-align: middle;
+    }
+    .quien-soy__figure{
+        width: 100%;
+        display: block;
+    }
+    .quien-soy__image{
+        width: 100%;
+        display: block;
+        border-radius: 50%;
+    }
+    .images-list__item{
+        width: 33%;
+    }
+    .foot{
+        padding: 25px 20%;
+        padding-top: 35px;
+    }
+    .social-media{
+        width: 50%;
+    }
+    .skills{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .skill-list{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .skill{
+        display: inline-block;
+        margin-bottom: 50px;
+        width: 33%;
+    }
+    .skill__figure{
+        display: inline-block;
+        max-width: 70px;
+    }
+    .job{
+        display: block;
+        font-size: 0px;
+        margin: 20px auto;
+        vertical-align: middle;
+        width: 70%;
+    }
+    .section--middle{
+        width: 49%;
+        display: inline-block;
+        margin: 0 auto;
+        background-color: #eeeeee;
+        vertical-align: top;
+        color: #072a16;
+        padding-bottom: 20px;
+    }
+    .section--middle--green{
+        width: 49%;
+        display: inline-block;
+        margin: 0 auto;
+        background-color: #eeeeee;
+        vertical-align: top;
+        color: #072a16;
+        padding-bottom: 20px;
+    }
+    .section__title--color{
+        color: #072a16;
+    }
+    .section__text--normal{
+        width: 100%;
+    }
+    .section__paragraph--darker{
+        color: #072a16;
+        width: 100%;
+    }
 }
