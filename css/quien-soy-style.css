@@ -1,0 +1,282 @@
+body{
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.head{
+    background-color: #072a16;
+    width: 100%
+}
+.logo
+{
+    display: block;
+    width: 30px;
+    margin: 0 auto;
+}
+.logo__h1
+{
+    margin: 0 auto;
+}
+.logo__figure
+{
+    margin: 0 auto;
+}
+.logo__image{
+    margin: 0 auto;
+}
+.menu
+{
+    position: fixed;
+    background-color: #072a16;
+    width: 100%;
+    bottom: 0px;
+}
+.menu__list{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+.menu__item{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    border-bottom: thick solid #072a16;
+}
+.menu__item--sub-green{
+    border-bottom: thick solid #8ab446;
+}
+.menu__link{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #939598;
+    padding: 10px 0;
+}
+.menu__link--white{
+    color: #ffffff;
+}
+.section{
+    margin: 0 auto;
+    background-color: #eeeeee;
+}
+.section--green{
+    background-color: #2d6b22;
+}
+.center{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+.section__text{
+    color: #eeeeee;
+    padding: 30px 0;
+}
+.section__title{
+    margin: 0;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.section__title--darker{
+    color: #072a16;
+}
+.section__paragraph{
+    font-weight: lighter;
+    text-align: justify;
+}
+.images-list{
+    text-decoration: none;
+    list-style: none;
+    font-size: 0;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+.images-list__item{
+    display: inline-block;
+    font-size: 0px;
+    width: 50%;
+    margin: 5px auto;
+}
+.images-list__figure{
+    display: block;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+}
+.images-list__image{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.foot{
+    background-color: #eeeeee;
+    font-size: 0;
+    padding: 50px 20%;
+}
+.social-media{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.social-media__icon{
+    display: inline-block;
+    width: 33%;
+    margin: 0 auto;
+}
+.icon__figure{
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+.icon__image{
+    display: block;
+    margin: 0 auto;
+}
+/*skill-jobs*/
+.skills{
+    margin: 0;
+    padding: 0;
+}
+.skill-list{
+    text-decoration: none;
+    list-style: none;
+    font-size: 0;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+.skill{
+    display: block;
+    font-size: 0px;
+    margin: 20px auto;
+}
+.skill__figure{
+    display: inline-block;
+    background-color: #eeeeee;
+    border-radius: 35px;
+    max-width: 50px;
+    margin: 0;
+    padding: 0;
+}
+.skill__image{
+    display: inline-block;
+    width: 100%;
+    border-radius: 35px;
+}
+.skill__texts{
+    display: inline-block;
+    color: #eeeeee;
+    height: 100%;
+    margin-left: 10px;
+    padding-right: 10%;
+    position: relative;
+}
+.skill__title{
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+.skill__text{
+    display: block;
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+.skill__cubes{
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    right:0px;
+}
+.cube{
+    display: inline-block;
+    background-color: #eeeeee;
+    height: 6px;
+    width: 15px;
+    margin: 0 3px;
+}
+.jobs-list{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    list-style: none;
+    font-size: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+.job{
+    display: block;;
+    font-size: 0px;
+    margin: 20px auto;
+    vertical-align: middle;
+}
+.job__texts{
+    display: inline-block;
+    width: 70%;
+    color: #072a16;
+    vertical-align: middle;
+}
+.job__title{
+    text-align: right;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.job__text{
+    text-align: justify;;
+    font-size: 16px;
+}
+.job__figure{
+    width: 25%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-left: 10px;
+    border-radius: 35px;
+    background-color: #eeeeee;
+}
+.job__image{
+    width: 100%;
+    display: inline-block;
+    border-radius: 35px;
+}
+/*contactos*/
+.form{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.form__text{
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin: 15px auto;
+}
+.form__input{
+    display: block;
+    width: 100%;
+}
+.form__input--inline{
+    display: inline-block;
+    width: 45%;
+}
+.form__button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #acc864;
+    color: #eeeeee;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
