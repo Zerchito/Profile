@@ -5,7 +5,7 @@ body{
 }
 .head{
     background-color: #072a16;
-    width: 100%
+    font-size: 0;
 }
 .logo
 {
@@ -16,6 +16,7 @@ body{
 .logo__div
 {
     margin: 0 auto;
+    vertical-align: baseline;
 }
 .logo__title{
     display: none;
@@ -23,6 +24,7 @@ body{
 .logo__figure
 {
     margin: 0 auto;
+    padding-left: 15%;
 }
 .logo__image{
     margin: 0 auto;
@@ -30,6 +32,7 @@ body{
 .menu
 {
     position: fixed;
+    font-size: 0;
     background-color: #072a16;
     width: 100%;
     bottom: 0px;
@@ -37,13 +40,14 @@ body{
 .menu__list{
     display: block;
     height: 100%;
+    padding: 0;
     margin: 0 auto;
 }
 .menu__item{
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    width: 30%;
+    width: 33.33%;
     border-bottom: thick solid #072a16;
 }
 .menu__item--sub-green{
@@ -73,13 +77,13 @@ body{
     background-color: #eeeeee;
 }
 .center{
-    display: block;
     width: 75%;
     margin: 0 auto;
+    font-size: 0;
 }
 .section__text{
     color: #eeeeee;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 .section__title{
     margin: 0;
@@ -96,9 +100,14 @@ body{
 .section__paragraph{
     font-weight: lighter;
     text-align: justify;
+    font-size: 14px;
 }
 .quien-soy__images{
     display: none;
+}
+.quien-soy__figure{
+    margin: 0;
+    padding: 0;
 }
 .images-list{
     text-decoration: none;
@@ -112,7 +121,7 @@ body{
     display: inline-block;
     font-size: 0px;
     width: 50%;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 .images-list__figure{
     display: block;
@@ -279,15 +288,21 @@ body{
     margin: 0;
     padding: 0;
     margin: 15px auto;
+    font-size: 14px;
 }
 .form__input{
     display: block;
     width: 95%;
+    font-size: 14px;
 }
 .form__input--inline{
     display: inline-block;
     width: 45%;
     margin: 0 auto;
+
+}
+.form__input--left{
+    margin-left: 5%;
 }
 .form__button{
     display: block;
@@ -319,59 +334,52 @@ body{
     margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
-
+@media only screen and (min-width: 768px)
+ {
     .logo
     {
-        vertical-align: middle;
+        vertical-align:bottom;
         display: inline-block;
         width: 50%;
-        margin: 0;
-        margin-left: 10px;
     }
     .logo__div
     {
         margin: 0;
         display: inline-block;
+        margin-left: 5%;
     }
     .logo__figure
     {
         margin: 0;
+        padding: 0;
+        height: 100%;
     }
-    .logo__image{
-        margin: 0;
-    }
+
     .logo__title{
         display: inline-block;
         margin: 0;
-        padding: 0;
-        margin-left: 10px;
+        margin-left: 5%;
         color: #eeeeee;
         font-style: italic;
         font-weight: lighter;
+        font-size: 32px;
     }
     .menu
     {
-        vertical-align: middle;
         position: static;
         display: inline-block;
-        width: 48%;
+        width: 50%;
     }
     .section__text{
         display: inline-block;
-        width: 70%;
-        font-size: 0;
-        color: #eeeeee;
-        padding: 30px 0;
+        width: 60%;
         vertical-align: middle;
-    }
-    .section__paragraph{
-        font-size: 16px;
     }
     .quien-soy__images{
         display: inline-block;
-        width: 29%;
+        width: 20%;
         margin: 0 auto;
+        margin-left: 5%;
         vertical-align: middle;
     }
     .quien-soy__figure{
@@ -384,7 +392,7 @@ body{
         border-radius: 50%;
     }
     .images-list__item{
-        width: 33%;
+        width: 33.33%;
     }
     .foot{
         padding: 25px 20%;
