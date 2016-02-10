@@ -84,6 +84,7 @@ body{
 .section__text{
     color: #eeeeee;
     padding: 20px 0;
+    text-align: center;
 }
 .section__title{
     margin: 0;
@@ -139,7 +140,7 @@ body{
 .foot{
     background-color: #eeeeee;
     font-size: 0;
-    padding: 50px 20%;
+    margin: 50px 20%;
 }
 .social-media{
     display: block;
@@ -163,9 +164,10 @@ body{
 }
 /*skill-jobs*/
 .skills{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     padding-bottom: 50px;
+    width: 200px;
 }
 .skill-list{
     text-decoration: none;
@@ -220,7 +222,7 @@ body{
     display: block;
     position: absolute;
     bottom: 3px;
-    right:0px;
+    left: 40px;
 }
 .cube{
     display: inline-block;
@@ -312,6 +314,7 @@ body{
     color: #eeeeee;
     border-radius: 10px;
     padding: 5px 15px;
+    font-size: 16px;
 }
 /*contact*/
 .contact__images{
@@ -374,6 +377,11 @@ body{
         display: inline-block;
         width: 60%;
         vertical-align: middle;
+        text-align: left;
+    }
+    .section__text--bigger{
+        width: 100%;
+        text-align: center;
     }
     .quien-soy__images{
         display: inline-block;
@@ -394,10 +402,6 @@ body{
     .images-list__item{
         width: 33.33%;
     }
-    .foot{
-        padding: 25px 20%;
-        padding-top: 35px;
-    }
     .social-media{
         width: 50%;
     }
@@ -405,6 +409,7 @@ body{
         display: block;
         margin: 0;
         padding: 0;
+        width: 100%;
     }
     .skill-list{
         margin: 0;
@@ -456,4 +461,5 @@ body{
         color: #072a16;
         width: 100%;
     }
+
 }
